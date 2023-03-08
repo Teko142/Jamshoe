@@ -1,0 +1,516 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1A264BB3265458AB00DA364F /* SettingsRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A264BB2265458AB00DA364F /* SettingsRow.swift */; };
+		1A3392E926534DF600FAF1AE /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A3392E826534DF600FAF1AE /* Profile.swift */; };
+		1A3392EC26534F4D00FAF1AE /* ProfileHost.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A3392EB26534F4D00FAF1AE /* ProfileHost.swift */; };
+		1A3392F2265354A600FAF1AE /* CircleName.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A3392F1265354A600FAF1AE /* CircleName.swift */; };
+		1A3392F6265413AE00FAF1AE /* ProfileSummary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A3392F5265413AE00FAF1AE /* ProfileSummary.swift */; };
+		1A3392F926541C4500FAF1AE /* ProfileEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A3392F826541C4500FAF1AE /* ProfileEditor.swift */; };
+		1A47C5CE2650994F00DB6C5A /* JamshoeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A47C5CD2650994F00DB6C5A /* JamshoeApp.swift */; };
+		1A47C5D02650994F00DB6C5A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A47C5CF2650994F00DB6C5A /* ContentView.swift */; };
+		1A47C5D22650995000DB6C5A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A47C5D12650995000DB6C5A /* Assets.xcassets */; };
+		1A47C5D52650995000DB6C5A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A47C5D42650995000DB6C5A /* Preview Assets.xcassets */; };
+		1A47C5DE26509C3500DB6C5A /* SquereImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A47C5DD26509C3500DB6C5A /* SquereImage.swift */; };
+		1A47C5E526509F0100DB6C5A /* Jamshoe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A47C5E426509F0100DB6C5A /* Jamshoe.swift */; };
+		1A47C5E82650A0CB00DB6C5A /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A47C5E72650A0CB00DB6C5A /* ModelData.swift */; };
+		1A47C5F12650A32800DB6C5A /* JamshoeRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A47C5F02650A32800DB6C5A /* JamshoeRow.swift */; };
+		1A47C5F42650A6BE00DB6C5A /* JamshoeList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A47C5F32650A6BE00DB6C5A /* JamshoeList.swift */; };
+		1A47C5FB2650A8A600DB6C5A /* JamshoeDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A47C5FA2650A8A600DB6C5A /* JamshoeDetail.swift */; };
+		1A47C6022650C4E500DB6C5A /* FavoriteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A47C6012650C4E500DB6C5A /* FavoriteButton.swift */; };
+		1A721984265693E2007DE737 /* sneakersData.json in Resources */ = {isa = PBXBuildFile; fileRef = 1A721983265693E2007DE737 /* sneakersData.json */; };
+		1A896CCD265466540007CBA2 /* OrederItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A896CCC265466540007CBA2 /* OrederItem.swift */; };
+		1A896CD0265467190007CBA2 /* Purchases.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A896CCF265467190007CBA2 /* Purchases.swift */; };
+		1A896CD4265480EE0007CBA2 /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A896CD3265480EE0007CBA2 /* PageViewController.swift */; };
+		1AEDF8372654B5FE00C69292 /* JamshoeCart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AEDF8362654B5FE00C69292 /* JamshoeCart.swift */; };
+		1AEDF83A2654B74D00C69292 /* CartButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AEDF8392654B74D00C69292 /* CartButton.swift */; };
+		1AEDF83D2654BAA200C69292 /* ApplePayButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AEDF83C2654BAA200C69292 /* ApplePayButton.swift */; };
+		1AEDF8422654BF1900C69292 /* iPaymentButton in Frameworks */ = {isa = PBXBuildFile; productRef = 1AEDF8412654BF1900C69292 /* iPaymentButton */; };
+		1AFE09BE2650E59700AC6571 /* CategoryHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFE09BD2650E59700AC6571 /* CategoryHome.swift */; };
+		1AFE09C52650EA4B00AC6571 /* CategoryRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFE09C42650EA4B00AC6571 /* CategoryRow.swift */; };
+		1AFE09C82650EC8B00AC6571 /* CategoryItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFE09C72650EC8B00AC6571 /* CategoryItem.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1A264BB2265458AB00DA364F /* SettingsRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsRow.swift; sourceTree = "<group>"; };
+		1A3392E826534DF600FAF1AE /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		1A3392EB26534F4D00FAF1AE /* ProfileHost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileHost.swift; sourceTree = "<group>"; };
+		1A3392F1265354A600FAF1AE /* CircleName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleName.swift; sourceTree = "<group>"; };
+		1A3392F5265413AE00FAF1AE /* ProfileSummary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileSummary.swift; sourceTree = "<group>"; };
+		1A3392F826541C4500FAF1AE /* ProfileEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileEditor.swift; sourceTree = "<group>"; };
+		1A47C5CA2650994F00DB6C5A /* Jamshoe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Jamshoe.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A47C5CD2650994F00DB6C5A /* JamshoeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JamshoeApp.swift; sourceTree = "<group>"; };
+		1A47C5CF2650994F00DB6C5A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1A47C5D12650995000DB6C5A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1A47C5D42650995000DB6C5A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1A47C5D62650995000DB6C5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A47C5DD26509C3500DB6C5A /* SquereImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquereImage.swift; sourceTree = "<group>"; };
+		1A47C5E426509F0100DB6C5A /* Jamshoe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Jamshoe.swift; sourceTree = "<group>"; };
+		1A47C5E72650A0CB00DB6C5A /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
+		1A47C5F02650A32800DB6C5A /* JamshoeRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JamshoeRow.swift; sourceTree = "<group>"; };
+		1A47C5F32650A6BE00DB6C5A /* JamshoeList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JamshoeList.swift; sourceTree = "<group>"; };
+		1A47C5FA2650A8A600DB6C5A /* JamshoeDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JamshoeDetail.swift; sourceTree = "<group>"; };
+		1A47C6012650C4E500DB6C5A /* FavoriteButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteButton.swift; sourceTree = "<group>"; };
+		1A721983265693E2007DE737 /* sneakersData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = sneakersData.json; sourceTree = "<group>"; };
+		1A896CCC265466540007CBA2 /* OrederItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrederItem.swift; sourceTree = "<group>"; };
+		1A896CCF265467190007CBA2 /* Purchases.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Purchases.swift; sourceTree = "<group>"; };
+		1A896CD3265480EE0007CBA2 /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
+		1AEDF8362654B5FE00C69292 /* JamshoeCart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JamshoeCart.swift; sourceTree = "<group>"; };
+		1AEDF8392654B74D00C69292 /* CartButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartButton.swift; sourceTree = "<group>"; };
+		1AEDF83C2654BAA200C69292 /* ApplePayButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplePayButton.swift; sourceTree = "<group>"; };
+		1AFE09BD2650E59700AC6571 /* CategoryHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryHome.swift; sourceTree = "<group>"; };
+		1AFE09C42650EA4B00AC6571 /* CategoryRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryRow.swift; sourceTree = "<group>"; };
+		1AFE09C72650EC8B00AC6571 /* CategoryItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryItem.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1A47C5C72650994F00DB6C5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AEDF8422654BF1900C69292 /* iPaymentButton in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1A3392EE26534F8000FAF1AE /* Profiles */ = {
+			isa = PBXGroup;
+			children = (
+				1A3392EB26534F4D00FAF1AE /* ProfileHost.swift */,
+				1A3392F5265413AE00FAF1AE /* ProfileSummary.swift */,
+				1A3392F826541C4500FAF1AE /* ProfileEditor.swift */,
+				1A264BB2265458AB00DA364F /* SettingsRow.swift */,
+				1A896CCC265466540007CBA2 /* OrederItem.swift */,
+				1A896CCF265467190007CBA2 /* Purchases.swift */,
+			);
+			path = Profiles;
+			sourceTree = "<group>";
+		};
+		1A47C5C12650994E00DB6C5A = {
+			isa = PBXGroup;
+			children = (
+				1A47C5CC2650994F00DB6C5A /* Jamshoe */,
+				1A47C5CB2650994F00DB6C5A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1A47C5CB2650994F00DB6C5A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1A47C5CA2650994F00DB6C5A /* Jamshoe.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1A47C5CC2650994F00DB6C5A /* Jamshoe */ = {
+			isa = PBXGroup;
+			children = (
+				1A47C5CD2650994F00DB6C5A /* JamshoeApp.swift */,
+				1A47C5EC2650A2EA00DB6C5A /* Views */,
+				1A3392EE26534F8000FAF1AE /* Profiles */,
+				1A47C5EA2650A2DE00DB6C5A /* Model */,
+				1A47C5EE2650A2F200DB6C5A /* Resources */,
+				1A47C5D12650995000DB6C5A /* Assets.xcassets */,
+				1A47C5D62650995000DB6C5A /* Info.plist */,
+				1A47C5D32650995000DB6C5A /* Preview Content */,
+			);
+			path = Jamshoe;
+			sourceTree = "<group>";
+		};
+		1A47C5D32650995000DB6C5A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				1A47C5D42650995000DB6C5A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1A47C5EA2650A2DE00DB6C5A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1A47C5E426509F0100DB6C5A /* Jamshoe.swift */,
+				1A47C5E72650A0CB00DB6C5A /* ModelData.swift */,
+				1A3392E826534DF600FAF1AE /* Profile.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1A47C5EC2650A2EA00DB6C5A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1A47C5CF2650994F00DB6C5A /* ContentView.swift */,
+				1A47C6062650C99800DB6C5A /* Jamshoes */,
+				1A47C6092650D96500DB6C5A /* Categories */,
+				1A47C6042650C98100DB6C5A /* Helper */,
+				1A896CD6265480F30007CBA2 /* PageView */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		1A47C5EE2650A2F200DB6C5A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1A721983265693E2007DE737 /* sneakersData.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		1A47C6042650C98100DB6C5A /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				1A47C5DD26509C3500DB6C5A /* SquereImage.swift */,
+				1A47C6012650C4E500DB6C5A /* FavoriteButton.swift */,
+				1A3392F1265354A600FAF1AE /* CircleName.swift */,
+				1AEDF8392654B74D00C69292 /* CartButton.swift */,
+				1AEDF83C2654BAA200C69292 /* ApplePayButton.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		1A47C6062650C99800DB6C5A /* Jamshoes */ = {
+			isa = PBXGroup;
+			children = (
+				1A47C5F02650A32800DB6C5A /* JamshoeRow.swift */,
+				1A47C5F32650A6BE00DB6C5A /* JamshoeList.swift */,
+				1A47C5FA2650A8A600DB6C5A /* JamshoeDetail.swift */,
+			);
+			path = Jamshoes;
+			sourceTree = "<group>";
+		};
+		1A47C6092650D96500DB6C5A /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				1AFE09BD2650E59700AC6571 /* CategoryHome.swift */,
+				1AFE09C42650EA4B00AC6571 /* CategoryRow.swift */,
+				1AFE09C72650EC8B00AC6571 /* CategoryItem.swift */,
+				1AEDF8362654B5FE00C69292 /* JamshoeCart.swift */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		1A896CD6265480F30007CBA2 /* PageView */ = {
+			isa = PBXGroup;
+			children = (
+				1A896CD3265480EE0007CBA2 /* PageViewController.swift */,
+			);
+			path = PageView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1A47C5C92650994F00DB6C5A /* Jamshoe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A47C5D92650995000DB6C5A /* Build configuration list for PBXNativeTarget "Jamshoe" */;
+			buildPhases = (
+				1A47C5C62650994F00DB6C5A /* Sources */,
+				1A47C5C72650994F00DB6C5A /* Frameworks */,
+				1A47C5C82650994F00DB6C5A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Jamshoe;
+			packageProductDependencies = (
+				1AEDF8412654BF1900C69292 /* iPaymentButton */,
+			);
+			productName = Jamshoe;
+			productReference = 1A47C5CA2650994F00DB6C5A /* Jamshoe.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1A47C5C22650994E00DB6C5A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					1A47C5C92650994F00DB6C5A = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = 1A47C5C52650994E00DB6C5A /* Build configuration list for PBXProject "Jamshoe" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1A47C5C12650994E00DB6C5A;
+			packageReferences = (
+				1AEDF8402654BF1900C69292 /* XCRemoteSwiftPackageReference "iPaymentButton" */,
+			);
+			productRefGroup = 1A47C5CB2650994F00DB6C5A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1A47C5C92650994F00DB6C5A /* Jamshoe */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1A47C5C82650994F00DB6C5A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A47C5D52650995000DB6C5A /* Preview Assets.xcassets in Resources */,
+				1A47C5D22650995000DB6C5A /* Assets.xcassets in Resources */,
+				1A721984265693E2007DE737 /* sneakersData.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1A47C5C62650994F00DB6C5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AFE09C52650EA4B00AC6571 /* CategoryRow.swift in Sources */,
+				1A47C5FB2650A8A600DB6C5A /* JamshoeDetail.swift in Sources */,
+				1A264BB3265458AB00DA364F /* SettingsRow.swift in Sources */,
+				1A47C5F12650A32800DB6C5A /* JamshoeRow.swift in Sources */,
+				1A3392E926534DF600FAF1AE /* Profile.swift in Sources */,
+				1A47C5F42650A6BE00DB6C5A /* JamshoeList.swift in Sources */,
+				1A47C6022650C4E500DB6C5A /* FavoriteButton.swift in Sources */,
+				1AFE09BE2650E59700AC6571 /* CategoryHome.swift in Sources */,
+				1A47C5D02650994F00DB6C5A /* ContentView.swift in Sources */,
+				1A47C5CE2650994F00DB6C5A /* JamshoeApp.swift in Sources */,
+				1A3392EC26534F4D00FAF1AE /* ProfileHost.swift in Sources */,
+				1AEDF8372654B5FE00C69292 /* JamshoeCart.swift in Sources */,
+				1A47C5E82650A0CB00DB6C5A /* ModelData.swift in Sources */,
+				1A47C5DE26509C3500DB6C5A /* SquereImage.swift in Sources */,
+				1A896CD0265467190007CBA2 /* Purchases.swift in Sources */,
+				1AEDF83D2654BAA200C69292 /* ApplePayButton.swift in Sources */,
+				1AFE09C82650EC8B00AC6571 /* CategoryItem.swift in Sources */,
+				1A896CD4265480EE0007CBA2 /* PageViewController.swift in Sources */,
+				1A896CCD265466540007CBA2 /* OrederItem.swift in Sources */,
+				1A3392F2265354A600FAF1AE /* CircleName.swift in Sources */,
+				1A3392F926541C4500FAF1AE /* ProfileEditor.swift in Sources */,
+				1AEDF83A2654B74D00C69292 /* CartButton.swift in Sources */,
+				1A3392F6265413AE00FAF1AE /* ProfileSummary.swift in Sources */,
+				1A47C5E526509F0100DB6C5A /* Jamshoe.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1A47C5D72650995000DB6C5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1A47C5D82650995000DB6C5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1A47C5DA2650995000DB6C5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Jamshoe/Preview Content\"";
+				DEVELOPMENT_TEAM = Y965A522N6;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Jamshoe/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = aolehno.Jamshoe;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1A47C5DB2650995000DB6C5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Jamshoe/Preview Content\"";
+				DEVELOPMENT_TEAM = Y965A522N6;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Jamshoe/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = aolehno.Jamshoe;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1A47C5C52650994E00DB6C5A /* Build configuration list for PBXProject "Jamshoe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A47C5D72650995000DB6C5A /* Debug */,
+				1A47C5D82650995000DB6C5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1A47C5D92650995000DB6C5A /* Build configuration list for PBXNativeTarget "Jamshoe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A47C5DA2650995000DB6C5A /* Debug */,
+				1A47C5DB2650995000DB6C5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		1AEDF8402654BF1900C69292 /* XCRemoteSwiftPackageReference "iPaymentButton" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "http://github.com/benjaminsage/iPaymentButton";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.0.3;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		1AEDF8412654BF1900C69292 /* iPaymentButton */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1AEDF8402654BF1900C69292 /* XCRemoteSwiftPackageReference "iPaymentButton" */;
+			productName = iPaymentButton;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 1A47C5C22650994E00DB6C5A /* Project object */;
+}
