@@ -20,7 +20,7 @@ struct Jamshoe: Hashable, Codable, Identifiable {
     var isBought: Bool
     var inCart: Bool
     
-    
+     
     var category: Category
     enum Category: String, CaseIterable, Codable {
         case airMax = "AIR MAX"

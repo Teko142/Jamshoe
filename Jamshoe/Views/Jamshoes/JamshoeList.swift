@@ -10,7 +10,7 @@ import SwiftUI
 struct JamshoeList: View {
     @EnvironmentObject var modelData: ModelData
     @State private var showFavorotesOnly = false
-    
+     
     var filteredJamshoes: [Jamshoe] {
         modelData.jamshoes.filter { jamshoe in
             (!showFavorotesOnly || jamshoe.isFavorite)

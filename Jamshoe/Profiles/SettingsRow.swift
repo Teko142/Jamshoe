@@ -17,7 +17,7 @@ struct SettingsRow: View {
         }
     }
 
-
+ 
 struct SettingRow_Previews: PreviewProvider {
     static var previews: some View {
         

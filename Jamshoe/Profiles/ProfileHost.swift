@@ -11,7 +11,7 @@ struct ProfileHost: View {
     @Environment(\.editMode) var editMode
     @EnvironmentObject var modelData: ModelData
     @State private var exampleProfile = Profile.default
-    
+     
     var body: some View {
         NavigationView {
             List{

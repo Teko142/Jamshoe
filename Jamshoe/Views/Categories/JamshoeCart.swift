@@ -11,7 +11,7 @@ import iPaymentButton
 struct JamshoeCart: View {
     @EnvironmentObject var modelData: ModelData
     @State private var showFavorotesOnly = true
-    
+     
    var filteredJamshoes: [Jamshoe] {
        modelData.jamshoes.filter { jamshoe in
            (!showFavorotesOnly || jamshoe.inCart)

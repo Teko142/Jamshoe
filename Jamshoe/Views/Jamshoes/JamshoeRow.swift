@@ -9,7 +9,7 @@ import SwiftUI
 
 struct JamshoeRow: View {
     var jamshoe: Jamshoe
-    
+     
     var body: some View {
         HStack {
             jamshoe.image

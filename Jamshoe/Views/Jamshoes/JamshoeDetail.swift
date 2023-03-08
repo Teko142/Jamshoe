@@ -10,7 +10,7 @@ import SwiftUI
 struct JamshoeDetail: View {
     @EnvironmentObject var modelData: ModelData
     var jamshoe: Jamshoe
-    
+     
     var jamshoeIndex: Int {
         modelData.jamshoes.firstIndex(where: { $0.id == jamshoe.id})!
     }

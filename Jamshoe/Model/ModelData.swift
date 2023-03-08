@@ -15,7 +15,7 @@ final class ModelData: ObservableObject {
     var features: [Jamshoe] {
         jamshoes.filter {$0.isFeatured}
     }
-    
+     
     var categories: [String: [Jamshoe]] {
         Dictionary(
             grouping: jamshoes,

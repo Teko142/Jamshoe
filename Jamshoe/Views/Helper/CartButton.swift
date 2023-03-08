@@ -9,7 +9,7 @@ import SwiftUI
 
 struct CartButton: View {
     @Binding var isSet: Bool
-    
+     
     var body: some View {
         Button(action: {
             isSet.toggle()

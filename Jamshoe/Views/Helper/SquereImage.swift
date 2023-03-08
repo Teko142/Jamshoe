@@ -14,7 +14,7 @@ struct SquereImage: View {
         image
     }
 }
-
+ 
 struct SquereImage_Previews: PreviewProvider {
     static var previews: some View {
         SquereImage(image: Image("AIR MAX LTD 3 BLACK"))

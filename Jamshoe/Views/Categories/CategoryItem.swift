@@ -9,7 +9,7 @@ import SwiftUI
 
 struct CategoryItem: View {
     var jamshoe: Jamshoe
-
+ 
     var body: some View {
         VStack(alignment: .leading) {
             jamshoe.image

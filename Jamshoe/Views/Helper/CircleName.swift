@@ -9,7 +9,7 @@ import SwiftUI
 
 struct CircleName: View {
     var body: some View {
-        Text("AO")
+        Text("AO") 
             .font(.system(size: 60, weight: .semibold))
           .padding()
           .background(

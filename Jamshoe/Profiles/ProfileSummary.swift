@@ -10,7 +10,7 @@ import SwiftUI
 struct ProfileSummary: View {
     @EnvironmentObject var modelData: ModelData
     var profile: Profile
-    
+     
     var body: some View {
         ScrollView {
             VStack (alignment: .center, spacing: 10) {

@@ -15,7 +15,7 @@ struct Profile {
     var birthDate = Date()
     var genderEmoji = Gender.male
 
-    
+     
     
     static let `default` = Profile(name: "Arthur", surname: "Olehno",phoneNumber: "24957458", email: "nosens@gmail.com")
     

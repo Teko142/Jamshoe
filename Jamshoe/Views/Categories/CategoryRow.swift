@@ -15,7 +15,7 @@ struct CategoryRow: View {
         VStack(alignment: .leading) {
             Text(categoryName)
                 .font(.headline)
-                .padding(.leading, 15)
+                .padding(.leading, 16)
                 .padding(.top, 5)
             ScrollView(.horizontal, showsIndicators: false) {
                 HStack(alignment: .top, spacing: 0) {
